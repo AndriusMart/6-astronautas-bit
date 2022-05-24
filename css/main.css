@@ -1,17 +1,28 @@
-body{
+header,
+main,
+footer{
     width: 800px;
     margin: auto;
+    margin-bottom: 30px;
 
 }
-header{
-    margin-bottom: 30px;
-    background-color: yellow;
+
+header > img {
+
+    background-color: blue;
 }
-main {
-    margin-bottom: 30px;
+
+
+nav > a {
+
+}
+
+main > img {
+
     background-color: green;
 }
-footer{
-    margin-bottom: 30px;
+
+footer {
+
     background-color: red;
 }
