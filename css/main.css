@@ -1,0 +1,17 @@
+body{
+    width: 800px;
+    margin: auto;
+
+}
+header{
+    margin-bottom: 30px;
+    background-color: yellow;
+}
+main {
+    margin-bottom: 30px;
+    background-color: green;
+}
+footer{
+    margin-bottom: 30px;
+    background-color: red;
+}
