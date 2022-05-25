@@ -20,6 +20,7 @@ nav {
 
 }
 nav > a {
+    color: black;
     float: left;
     margin-left: 10px;
     line-height: 20px;
@@ -29,13 +30,45 @@ nav > a {
 nav > a:first-child {
     margin-left: 0;
 }
-main a {
-
+main > div {
+    width: 40%;
+    float: left;
 }
-
+main h1{
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+main h2{
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: -2px;
+}
+main p{
+    color: #777;
+}
 main > img {
+    width: 55%;
+    float: right;
+}
+div > div{
+    margin-top: 30px;
+}
+main a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 24px;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+}
+main a:last-child {
+    background-color: #fff;
+    color: blueviolet;
 
-    background-color: green;
 }
 
 footer {
