@@ -1,19 +1,35 @@
+body {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 header,
 main,
 footer{
+    display: inline-block;
     width: 800px;
-    margin: auto;
+    margin-left: calc(50% - 400px);
     margin-bottom: 30px;
 
 }
 
 header > img {
-
-    background-color: blue;
+    float: left;
 }
+nav {
+    margin-top: 10px;
+    float: right;
 
-
+}
 nav > a {
+    float: left;
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav > a:first-child {
+    margin-left: 0;
+}
+main a {
 
 }
 
