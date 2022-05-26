@@ -30,7 +30,9 @@ nav > a {
     line-height: 20px;
     text-decoration: none;
 }
-
+nav > a:hover{
+    text-decoration: underline;
+}
 nav > a:first-child {
     margin-left: 0;
 }
@@ -81,16 +83,27 @@ main a {
     font-size: 20px;
     line-height: 20px;
     color: #fff;
+    transition: 2s;
 }
-
+main a:hover {
+    box-shadow: 0px 5px 8px #0003;
+    transform: scale(105%);
+    transition: 1s;
+}
 main a:last-child {
     color: #648;
     background-color: #fff;
 }
 
+
 main > img {
     width: 55%;
     float: right;
+    transition: all 1.5s;
+}
+main > img:hover {
+    transform: rotate(360deg);
+    transition: all 1.5s;
 }
 
 footer div{
@@ -104,9 +117,24 @@ footer div > a{
     float: left;
     color: #aaa;
     text-decoration: none;
-
+    transition: all 3s
+}
+footer div > a:first-child:hover{
+    color: #648;
+    transition: all 1.5s;
+}
+footer div > a:nth-child(2):hover{
+    color: red;
+    transition: all 1.5s;
+}
+footer div > a:nth-child(3):hover{
+    color: green;
+    transition: all 1.5s;
+}
+footer div > a:nth-child(4):hover{
+    color: yellow;
+    transition: all 1.5s;
 }
 footer div > a + a{
     margin-left: 15px;
-
 }
