@@ -92,3 +92,21 @@ main > img {
     width: 55%;
     float: right;
 }
+
+footer div{
+    float: left;
+}
+footer p{
+    float: right;
+    margin: 0;
+}
+footer div > a{
+    float: left;
+    color: #aaa;
+    text-decoration: none;
+
+}
+footer div > a + a{
+    margin-left: 15px;
+
+}
